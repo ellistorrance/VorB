@@ -7,7 +7,7 @@ VorB is written with Python v3.7 and requires Python libraries: NumPy, Matplotli
 
 VorB Requires:
 1) a path to a GeNomad output folder.
-2) a path to a folder containing annotated fasta format nucleotide sequences (.fna) from related taxa. NOTE: make sure no other files are in this folder other than the annotated genomes you wish to query. 
+2) a path to a folder containing annotated genomes in fasta format (.fna) from related taxa. NOTE: make sure no other files are in this folder other than the annotated genomes you wish to query. 
 
 To run:
           
