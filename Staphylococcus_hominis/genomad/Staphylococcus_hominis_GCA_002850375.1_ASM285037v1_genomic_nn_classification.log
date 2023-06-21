@@ -1,0 +1,65 @@
+╭───────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad nn-classification (v1.1.0). This will classify the input   │
+│  sequences into chromosome, plasmid, or virus based on the nucleotide         │
+│  sequence.                                                                    │
+│  ───────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                     │
+│    /Users/ellistorrance/Documents/Roux_Lab/Tailocin/genomad/ref_genomead/Sta  │
+│    phylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic/Staphylococcus_ho  │
+│    minis_GCA_002850375.1_ASM285037v1_genomic_nn_classification                │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_nn_classif  │
+│    │   ication.json (execution parameters)                                    │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_encoded_se  │
+│    │   quences (directory containing encoded sequence data)                   │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_nn_classif  │
+│    │   ication.tsv (contig classification: tabular format)                    │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_nn_classif  │
+│    │   ication.npz (contig classification: binary format)                     │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_encoded_pr  │
+│    │   oviruses (directory containing encoded sequence data)                  │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_n  │
+│    │   n_classification.tsv (provirus classification: tabular format)         │
+│    └── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_n  │
+│        n_classification.npz (provirus classification: binary format)          │
+╰───────────────────────────────────────────────────────────────────────────────╯
+[18:54:22] Executing genomad nn-classification.                                  
+[18:54:22] Creating the                                                          
+           /Users/ellistorrance/Documents/Roux_Lab/Tailocin/genomad/ref_genomead/
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic/Staphylococ
+           cus_hominis_GCA_002850375.1_ASM285037v1_genomic_nn_classification     
+           directory.                                                            
+[18:54:22] Creating the                                                          
+           /Users/ellistorrance/Documents/Roux_Lab/Tailocin/genomad/ref_genomead/
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic/Staphylococ
+           cus_hominis_GCA_002850375.1_ASM285037v1_genomic_nn_classification/Stap
+           hylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_encoded_sequenc
+           es directory.                                                         
+[18:54:22] Encoded sequence data written to                                      
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_encoded_seq
+           uences.                                                               
+[18:54:22] Creating the                                                          
+           /Users/ellistorrance/Documents/Roux_Lab/Tailocin/genomad/ref_genomead/
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic/Staphylococ
+           cus_hominis_GCA_002850375.1_ASM285037v1_genomic_nn_classification/Stap
+           hylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_encoded_proviru
+           ses directory.                                                        
+[18:54:22] Encoded provirus data written to                                      
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_encoded_pro
+           viruses.                                                              
+[18:54:34] Sequences classified.                                                 
+[18:54:34] Sequence classification in binary format written to                   
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_nn_classifi
+           cation.npz.                                                           
+[18:54:34] Deleting encoded sequence data.                                       
+[18:54:34] Sequence classification in tabular format written to                  
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_nn_classifi
+           cation.tsv.                                                           
+[18:54:36] Proviruses classified.                                                
+[18:54:36] Provirus classification in binary format written to                   
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_nn
+           _classification.npz.                                                  
+[18:54:36] Deleting encoded provirus data.                                       
+[18:54:36] Provirus classification in tabular format written to                  
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_nn
+           _classification.tsv.                                                  
+[18:54:36] geNomad nn-classification finished!                                   

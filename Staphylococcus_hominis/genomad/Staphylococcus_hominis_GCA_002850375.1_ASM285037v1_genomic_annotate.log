@@ -1,0 +1,39 @@
+╭───────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.1.0). This will perform gene calling in the   │
+│  input sequences and annotate the predicted proteins with geNomad's markers.  │
+│  ───────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                     │
+│    /Users/ellistorrance/Documents/Roux_Lab/Tailocin/genomad/ref_genomead/Sta  │
+│    phylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic/Staphylococcus_ho  │
+│    minis_GCA_002850375.1_ASM285037v1_genomic_annotate                         │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_annotate.j  │
+│    │   son (execution parameters)                                             │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_genes.tsv   │
+│    │   (gene annotation data)                                                 │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_taxonomy.t  │
+│    │   sv (taxonomic assignment)                                              │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_mmseqs2.ts  │
+│    │   v (MMseqs2 output file)                                                │
+│    └── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_proteins.f  │
+│        aa (protein FASTA file)                                                │
+╰───────────────────────────────────────────────────────────────────────────────╯
+[18:51:49] Executing genomad annotate.                                           
+[18:51:49] Creating the                                                          
+           /Users/ellistorrance/Documents/Roux_Lab/Tailocin/genomad/ref_genomead/
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic/Staphylococ
+           cus_hominis_GCA_002850375.1_ASM285037v1_genomic_annotate directory.   
+[18:51:58] Proteins predicted with prodigal-gv were written to                   
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_proteins.fa
+           a.                                                                    
+[18:54:14] Proteins annotated with MMseqs2 and geNomad database (v1.1) were      
+           written to                                                            
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_mmseqs2.tsv
+           .                                                                     
+[18:54:14] Deleting                                                              
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_mmseqs2.   
+[18:54:15] Gene data was written to                                              
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_genes.tsv. 
+[18:54:15] Taxonomic assignment data was written to                              
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_taxonomy.ts
+           v.                                                                    
+[18:54:15] geNomad annotate finished!                                            

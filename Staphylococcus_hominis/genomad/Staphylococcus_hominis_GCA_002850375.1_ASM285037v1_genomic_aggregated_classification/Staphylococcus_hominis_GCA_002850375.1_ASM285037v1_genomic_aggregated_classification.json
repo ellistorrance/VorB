@@ -1,0 +1,7 @@
+{
+    "module": "aggregated_classification",
+    "input": "Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic.fna",
+    "input_md5": "8900d779ae48aff788f0f7ef6f6fe57f",
+    "start_time": "2022-09-21T18:54:36.926190-07:00",
+    "parameters": {}
+}

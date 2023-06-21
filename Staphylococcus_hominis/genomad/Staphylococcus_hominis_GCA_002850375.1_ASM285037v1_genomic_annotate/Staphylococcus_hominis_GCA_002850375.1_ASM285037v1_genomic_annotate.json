@@ -1,0 +1,11 @@
+{
+    "module": "annotate",
+    "input": "Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic.fna",
+    "input_md5": "8900d779ae48aff788f0f7ef6f6fe57f",
+    "start_time": "2022-09-21T18:51:49.730423-07:00",
+    "parameters": {
+        "use_minimal_db": false,
+        "sensitivity": 6.4,
+        "evalue": 0.001
+    }
+}

@@ -1,0 +1,64 @@
+╭───────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad find-proviruses (v1.1.0). This will find putative          │
+│  proviral regions within the input sequences.                                 │
+│  ───────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                     │
+│    /Users/ellistorrance/Documents/Roux_Lab/Tailocin/genomad/ref_genomead/Sta  │
+│    phylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic/Staphylococcus_ho  │
+│    minis_GCA_002850375.1_ASM285037v1_genomic_find_proviruses                  │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_find_provi  │
+│    │   ruses.json (execution parameters)                                      │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus.t  │
+│    │   sv (provirus data)                                                     │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus.f  │
+│    │   na (provirus nucleotide sequences)                                     │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_p  │
+│    │   roteins.faa (provirus protein sequences)                               │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_g  │
+│    │   enes.tsv (provirus gene annotation data)                               │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_t  │
+│    │   axonomy.tsv (provirus taxonomic assignment)                            │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_m  │
+│    │   mseqs2.tsv (MMseqs2 output file)                                       │
+│    └── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_a  │
+│        ragorn.tsv (Aragorn output file)                                       │
+╰───────────────────────────────────────────────────────────────────────────────╯
+[18:54:15] Executing genomad find-proviruses.                                    
+[18:54:15] Creating the                                                          
+           /Users/ellistorrance/Documents/Roux_Lab/Tailocin/genomad/ref_genomead/
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic/Staphylococ
+           cus_hominis_GCA_002850375.1_ASM285037v1_genomic_find_proviruses       
+           directory.                                                            
+[18:54:16] Integrases identified with MMseqs2 and geNomad database (v1.1) were   
+           written to                                                            
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_mm
+           seqs2.tsv.                                                            
+[18:54:16] Deleting                                                              
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_mm
+           seqs2.                                                                
+[18:54:16] Deleting                                                              
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_mm
+           seqs2_input.faa.                                                      
+[18:54:19] tRNAs identified with Aragorn were written to                         
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_ar
+           agorn.tsv.                                                            
+[18:54:19] Deleting                                                              
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_ar
+           agorn_input.fna.                                                      
+[18:54:19] Provirus regions identified.                                          
+[18:54:19] Provirus data was written to                                          
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus.ts
+           v.                                                                    
+[18:54:19] Provirus nucleotide sequences were written to                         
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus.fn
+           a.                                                                    
+[18:54:19] Provirus protein sequences were written to                            
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_pr
+           oteins.faa.                                                           
+[18:54:19] Provirus gene data was written to                                     
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_ge
+           nes.tsv.                                                              
+[18:54:19] Taxonomic assignment data was written to                              
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_ta
+           xonomy.tsv.                                                           
+[18:54:19] geNomad find-proviruses finished!                                     

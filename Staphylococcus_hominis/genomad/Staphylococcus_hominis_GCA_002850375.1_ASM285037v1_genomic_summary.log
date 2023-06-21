@@ -1,0 +1,53 @@
+╭───────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad summary (v1.1.0). This will summarize the results across   │
+│  modules into a classification report.                                        │
+│  ───────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                     │
+│    /Users/ellistorrance/Documents/Roux_Lab/Tailocin/genomad/ref_genomead/Sta  │
+│    phylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic/Staphylococcus_ho  │
+│    minis_GCA_002850375.1_ASM285037v1_genomic_summary                          │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_summary.js  │
+│    │   on (execution parameters)                                              │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_virus_summ  │
+│    │   ary.tsv (virus classification summary)                                 │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_plasmid_su  │
+│    │   mmary.tsv (plasmid classification summary)                             │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_virus.fna   │
+│    │   (virus nucleotide FASTA file)                                          │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_plasmid.fn  │
+│    │   a (plasmid nucleotide FASTA file)                                      │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_virus_prot  │
+│    │   eins.faa (virus protein FASTA file)                                    │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_plasmid_pr  │
+│    │   oteins.faa (plasmid protein FASTA file)                                │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_virus_gene  │
+│    │   s.tsv (virus gene annotation data)                                     │
+│    └── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_plasmid_ge  │
+│        nes.tsv (plasmid gene annotation data)                                 │
+╰───────────────────────────────────────────────────────────────────────────────╯
+[18:54:36] Executing genomad summary.                                            
+[18:54:36] Creating the                                                          
+           /Users/ellistorrance/Documents/Roux_Lab/Tailocin/genomad/ref_genomead/
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic/Staphylococ
+           cus_hominis_GCA_002850375.1_ASM285037v1_genomic_summary directory.    
+[18:54:36] Using scores from aggregated-classification.                          
+[18:54:36] Plasmids and viruses were identified.                                 
+[18:54:36] Nucleotide sequences were written to                                  
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_plasmid.fna
+           and                                                                   
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_virus.fna. 
+[18:54:36] Protein sequences were written to                                     
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_plasmid_pro
+           teins.faa and                                                         
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_virus_prote
+           ins.faa.                                                              
+[18:54:37] Gene annotation data was written to                                   
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_plasmid_gen
+           es.tsv and                                                            
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_virus_genes
+           .tsv.                                                                 
+[18:54:37] Summary files were written to                                         
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_plasmid_sum
+           mary.tsv and                                                          
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_virus_summa
+           ry.tsv.                                                               

@@ -1,0 +1,63 @@
+╭───────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad marker-classification (v1.1.0). This will classify the     │
+│  input sequences into chromosome, plasmid, or virus based on the presence of  │
+│  geNomad markers and other gene-related features.                             │
+│  ───────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                     │
+│    /Users/ellistorrance/Documents/Roux_Lab/Tailocin/genomad/ref_genomead/Sta  │
+│    phylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic/Staphylococcus_ho  │
+│    minis_GCA_002850375.1_ASM285037v1_genomic_marker_classification            │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_marker_cla  │
+│    │   ssification.json (execution parameters)                                │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_features.t  │
+│    │   sv (sequence feature data: tabular format)                             │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_features.n  │
+│    │   pz (sequence feature data: binary format)                              │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_marker_cla  │
+│    │   ssification.tsv (sequence classification: tabular format)              │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_marker_cla  │
+│    │   ssification.npz (sequence classification: binary format)               │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_f  │
+│    │   eatures.tsv (provirus feature data: tabular format)                    │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_f  │
+│    │   eatures.npz (provirus feature data: binary format)                     │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_m  │
+│    │   arker_classification.tsv (provirus classification: tabular format)     │
+│    └── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_m  │
+│        arker_classification.npz (provirus classification: binary format)      │
+╰───────────────────────────────────────────────────────────────────────────────╯
+[18:54:19] Executing genomad marker-classification.                              
+[18:54:19] Creating the                                                          
+           /Users/ellistorrance/Documents/Roux_Lab/Tailocin/genomad/ref_genomead/
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic/Staphylococ
+           cus_hominis_GCA_002850375.1_ASM285037v1_genomic_marker_classification 
+           directory.                                                            
+[18:54:20] Sequence features computed.                                           
+[18:54:20] Sequence features in binary format written to                         
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_features.np
+           z.                                                                    
+[18:54:20] Sequence features in tabular format written to                        
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_features.ts
+           v.                                                                    
+[18:54:20] Provirus features computed.                                           
+[18:54:20] Provirus features in binary format written to                         
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_fe
+           atures.npz.                                                           
+[18:54:20] Provirus features in tabular format written to                        
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_fe
+           atures.tsv.                                                           
+[18:54:20] Sequences classified.                                                 
+[18:54:20] Sequence classification in binary format written to                   
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_marker_clas
+           sification.npz.                                                       
+[18:54:20] Sequence classification in tabular format written to                  
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_marker_clas
+           sification.tsv.                                                       
+[18:54:20] Proviruses classified.                                                
+[18:54:20] Provirus classification in binary format written to                   
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_ma
+           rker_classification.npz.                                              
+[18:54:20] Provirus classification in tabular format written to                  
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_ma
+           rker_classification.tsv.                                              
+[18:54:20] geNomad marker-classification finished!                               

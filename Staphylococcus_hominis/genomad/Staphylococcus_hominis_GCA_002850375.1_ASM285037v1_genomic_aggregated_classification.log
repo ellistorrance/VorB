@@ -1,0 +1,43 @@
+╭───────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad aggregated-classification (v1.1.0). This will aggregate    │
+│  the results of the marker-classification and nn-classification modules to    │
+│  classify the input sequences into chromosome, plasmid, or virus.             │
+│  ───────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                     │
+│    /Users/ellistorrance/Documents/Roux_Lab/Tailocin/genomad/ref_genomead/Sta  │
+│    phylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic/Staphylococcus_ho  │
+│    minis_GCA_002850375.1_ASM285037v1_genomic_aggregated_classification        │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_aggregated  │
+│    │   _classification.json (execution parameters)                            │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_aggregated  │
+│    │   _classification.tsv (sequence classification: tabular format)          │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_aggregated  │
+│    │   _classification.npz (sequence classification: binary format)           │
+│    ├── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_a  │
+│    │   ggregated_classification.tsv (provirus classification: tabular         │
+│    │   format)                                                                │
+│    └── Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_a  │
+│        ggregated_classification.npz (provirus classification: binary format)  │
+╰───────────────────────────────────────────────────────────────────────────────╯
+[18:54:36] Executing genomad aggregated-classification.                          
+[18:54:36] Creating the                                                          
+           /Users/ellistorrance/Documents/Roux_Lab/Tailocin/genomad/ref_genomead/
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic/Staphylococ
+           cus_hominis_GCA_002850375.1_ASM285037v1_genomic_aggregated_classificat
+           ion directory.                                                        
+[18:54:36] The total marker frequencies of the input sequences were computed.    
+[18:54:36] Sequences classified.                                                 
+[18:54:36] Sequence classification in binary format written to                   
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_aggregated_
+           classification.npz.                                                   
+[18:54:36] Sequence classification in tabular format written to                  
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_aggregated_
+           classification.tsv.                                                   
+[18:54:36] Proviruses classified.                                                
+[18:54:36] Provirus classification in binary format written to                   
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_ag
+           gregated_classification.npz.                                          
+[18:54:36] Provirus classification in tabular format written to                  
+           Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic_provirus_ag
+           gregated_classification.tsv.                                          
+[18:54:36] geNomad aggregated-classification finished!                           

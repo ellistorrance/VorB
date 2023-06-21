@@ -1,0 +1,15 @@
+{
+    "module": "summary",
+    "input": "Staphylococcus_hominis_GCA_002850375.1_ASM285037v1_genomic.fna",
+    "input_md5": "8900d779ae48aff788f0f7ef6f6fe57f",
+    "start_time": "2022-09-21T18:54:36.958206-07:00",
+    "parameters": {
+        "min_score": 0.8,
+        "max_fdr": 0.1,
+        "min_plasmid_hallmarks": 0,
+        "min_virus_hallmarks": 0,
+        "min_plasmid_marker_enrichment": 0.0,
+        "min_virus_marker_enrichment": 0.0,
+        "max_uscg": 4
+    }
+}

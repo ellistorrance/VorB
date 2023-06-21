@@ -1,0 +1,4 @@
+seq_name	n_genes_with_taxonomy	agreement	taxid	lineage
+CP020618.1|provirus_638575_650258	7	1.0000	2561	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes
+CP020618.1|provirus_1682501_1726551	7	1.0000	2561	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes
+CP020618.1|provirus_2057602_2101613	54	1.0000	2561	Viruses;Duplodnaviria;Heunggongvirae;Uroviricota;Caudoviricetes
